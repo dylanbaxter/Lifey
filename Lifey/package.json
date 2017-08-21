@@ -1,0 +1,32 @@
+{
+  "name": "lifey",
+  "version": "0.0.1",
+  "description": "Lifey",
+  "main": "server.js",
+  "author": {
+    "email": "dylan@dylanbaxter.com",
+    "name": "Dylan Baxter"
+  },
+  "scripts": {
+    "dev": "nodemon --harmony server/app.js",
+    "test": "echo 'YAY!"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "chokidar": "^1.7.0",
+    "express": "^4.15.3",
+    "jquery": "^3.2.1",
+    "mongodb": "^2.2.30",
+    "muicss": "^0.9.20",
+    "require-vuejs": "^1.0.8",
+    "socket.io": "^2.0.3",
+    "socket.io-client": "^2.0.3",
+    "systeminformation": "^3.23.7",
+    "vue": "^2.4.2",
+    "vuex": "^2.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0",
+    "requirejs": "^2.3.3"
+  }
+}
